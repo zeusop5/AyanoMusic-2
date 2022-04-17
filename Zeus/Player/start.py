@@ -40,7 +40,7 @@ async def start_(client: Client, message: Message):
 
 ┏━━━━━━━━━━━━━━━━━━━━━❥
 ┣ 𝐔ᴘᴅᴀᴛᴇꜱ -> @about_zeus_xd
-┣ 𝐒ᴜᴘᴘᴏʀᴛ -> @TheMKHackerX131
+┣ 𝐒ᴜᴘᴘᴏʀᴛ -> @MAGNESIUM_FORCE
 ┗━━━━━━━━━━━━━━━━━━━━━❥
 **""",
     reply_markup=InlineKeyboardMarkup(
