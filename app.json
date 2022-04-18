@@ -21,13 +21,13 @@
         },
         "API_ID": {
             "description": "your Api ID from my.telegram.org/apps",
-            "required": true,
-            "value": "10727618"
+            "required": false,
+            "value": ""
         },
         "API_HASH": {
             "description": "your Api Hash from my.telegram.org/apps",
-            "required": true,
-            "value": "8197033b5991996e33775edb9abe9c12"
+            "required": false,
+            "value": ""
         },
         "GROUP_SUPPORT": {
             "description": "Ur Support Group Username",
