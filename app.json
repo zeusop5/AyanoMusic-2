@@ -22,22 +22,22 @@
         "API_ID": {
             "description": "your Api ID from my.telegram.org/apps",
             "required": false,
-            "value": ""
+            "value": "10727618"
         },
         "API_HASH": {
             "description": "your Api Hash from my.telegram.org/apps",
             "required": false,
-            "value": ""
+            "value": "8197033b5991996e33775edb9abe9c12"
         },
         "GROUP_SUPPORT": {
             "description": "Ur Support Group Username",
             "required": false,
-            "value": "TheMKHackerX131"
+            "value": "MAGNESIUM_FORCE"
         },
         "UPDATES_CHANNEL": {
             "description": "Ur Updates Channel",
             "required": false,
-            "value": ""
+            "value": "about_zeus_xd"
         },
         "SUDO_USERS": {
             "description": "fill with the user id who can access all function in your bot (separate with space).",
