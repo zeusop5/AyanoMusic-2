@@ -37,7 +37,7 @@
         "UPDATES_CHANNEL": {
             "description": "Ur Updates Channel",
             "required": false,
-            "value": ""about_zeus_xd"
+            "value": ""
         },
         "SUDO_USERS": {
             "description": "fill with the user id who can access all function in your bot (separate with space).",
