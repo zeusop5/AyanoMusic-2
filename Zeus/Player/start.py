@@ -64,7 +64,7 @@ async def start_(client: Client, message: Message):
 @Client.on_message(commandpro(["/start", "/stats"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/732e3df9a661800df6902.jpg",
+        photo=f"https://te.legra.ph/file/eb9a9acde7a4a3e051556.jpg",
         caption=f"""Thanks For Adding Me To Ur Chat, For Any Query U Can Join Our Support Groups 🔥♥️""",
         reply_markup=InlineKeyboardMarkup(
             [
@@ -80,7 +80,7 @@ async def start(client: Client, message: Message):
 @Client.on_message(command(["repo", "source"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/732e3df9a661800df6902.jpg",
+        photo=f"https://te.legra.ph/file/eb9a9acde7a4a3e051556.jpg",
         caption=f"""Here Is The Source Code Fork And Give Stars ✨""",
         reply_markup=InlineKeyboardMarkup(
             [
