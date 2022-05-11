@@ -74,3 +74,9 @@
 - Click on save button there at bottom to save your logs and forward it to us on [@Bot_Support](https://t.me/TheMKHackerX131) if you face any problem
 
 </details>
+
+
+## 🚀 Okteto Deployment
+
+<h4>Click the button below to deploy on Okteto!</h4>
+<a href="https://cloud.okteto.com/deploy?repository=https://github.com/zeusop5/AyanoMusic-2"><img src="https://img.shields.io/badge/Deploy%20To%20Okteto-informational?style=for-the-badge&logo=Okteto" width="200""/></a>
