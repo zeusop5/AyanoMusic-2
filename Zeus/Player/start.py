@@ -36,23 +36,32 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"{START_PIC}",
-        caption=f"""**✨𝐇ᴇʏ 𝐓ʜᴇʀᴇ 𝐌ʏ 𝐍ᴀᴍᴇ 𝐈s 🌈𝐀ʏᴀɴᴏ 𝐑ᴏʙᴏᴛ🌈 𝐈'ᴍ 𝐀  𝐏ᴏᴡᴇʀғᴜʟʟ 𝐕𝐂 𝐀ɴᴅ  𝐆ʀᴏᴜᴘ 𝐌ᴀɴᴀɢᴇʀ 𝐁ᴏᴛ 𝐖ɪᴛʜ 𝐂ᴏᴏʟ 𝐌ᴏᴅᴜʟᴇs. 𝐅ᴇʟʟ 𝐅ʀᴇᴇ 𝐓ᴏ 𝐀ᴅᴅ 𝐌ᴇ 𝐓ᴏ 𝐘ᴏᴜʀ 𝐆ʀᴏᴜᴘs 𝐇ɪᴛ 𝐇ᴇʟᴘ 𝐁ᴜᴛᴛᴏɴ 𝐓ᴏ 𝐊ɴᴏᴡ 𝐌ʏ 𝐂ᴏᴍᴍᴀɴᴅs✨
-
-┏━━━━━━━━━━━━━━━━━━━━━❥
-┣ 𝐔ᴘᴅᴀᴛᴇꜱ -> @about_zeus_xd
-┣ 𝐒ᴜᴘᴘᴏʀᴛ -> @MAGNESIUM_FORCE
-┗━━━━━━━━━━━━━━━━━━━━━❥
+        caption=f"""**ʜᴇʏ ɢᴜʏꜱ 
+ᴛʜɪꜱ ʙᴏᴛ ʜᴀꜱ ᴀ ʟᴏᴛ ᴏꜰ ꜰᴇᴀᴛᴜʀᴇꜱ ʙᴀꜱᴇᴅ ᴏɴ ᴀ.ɪ ᴀɴᴅ ʜɪɢʜ ꜱᴏᴜɴᴅ Qᴜᴀʟɪᴛʏ ᴏꜰ ꜱᴏɴɢꜱ.
+ᴀɴᴅ ᴛʜɪꜱ ᴍᴜꜱɪᴄ + ꜱᴘᴀᴍ + ᴠᴄʀᴀɪᴅ ʙᴏᴛ ꜱᴍᴀꜱʜ ᴛʜᴇᴍ ᴏꜰ ᴀʟʟ ꜱᴇʀᴠᴇʀ ᴏꜰ ᴍᴜꜱɪᴄ ʙᴏᴛ ᴀꜱꜱ..
+ᴘᴏᴡᴇʀᴇᴅ ʙʏ [ᴍᴀɢɴᴇsɪᴜᴍ xᴅ](t.me/MAGNESIUM_XD)
 **""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❱ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
+                        "➕ ❰ 💖ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ʙᴀʙʏ😉 ❱ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://github.com/zeusop5/AyanoMusic-2"
+                        "ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ", url=f"https://t.me/About_Zeus_xD"
+                    ),
+                    InlineKeyboardButton(
+                        "•ᴏᴡɴᴇʀ•", url="https://t.me/MAGNESIUM_XD"
+                    )
+                ],
+                [
+                    InlineKeyboardButton(
+                        "♲︎︎︎ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
+                    ),
+                    InlineKeyboardButton(
+                        "ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 🇮🇳", url=f"https://t.me/{GROUP_SUPPORT}"
                     )
                 ]
                 
@@ -64,13 +73,13 @@ async def start_(client: Client, message: Message):
 @Client.on_message(commandpro(["/start", "/stats"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/eb9a9acde7a4a3e051556.jpg",
-        caption=f"""Thanks For Adding Me To Ur Chat, For Any Query U Can Join Our Support Groups 🔥♥️""",
+        photo=f"https://te.legra.ph/file/bf9f444677e4d565542a6.jpg",
+        caption=f"""ᴛʜᴀɴᴋᴅ ғᴏʀ ᴀᴅᴅɪɴɢ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ  ғᴏʀ ᴀɴʏ ǫᴜᴇʀʏ ʏᴏᴜ ᴄᴀɴ ᴊᴏɪɴ ᴏᴜʀ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ᴀɴᴅ ᴄʜᴀɴɴᴇʟ.""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💥 ᴊᴏɪɴ ʜᴇʀᴇ 💞", url=f"https://t.me/{GROUP_SUPPORT}")
+                        "•ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ•", url=f"https://t.me/About_Zeus_xD")
                 ]
             ]
         ),
@@ -80,13 +89,13 @@ async def start(client: Client, message: Message):
 @Client.on_message(command(["repo", "source"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/eb9a9acde7a4a3e051556.jpg",
-        caption=f"""Here Is The Source Code Fork And Give Stars ✨""",
+        photo=f"https://te.legra.ph/file/187646e964cd12329f1de.jpg",
+        caption=f"""ʜᴇʀᴇ ɪs ᴛʜᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ғᴏʀᴋ ᴀɴᴅ ɢɪᴠᴇ sᴛᴀʀs""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        " ʀᴇᴘᴏ ⚒️", url=f"https://github.com/zeusop5/AyanoMusic-2")
+                        " ʀᴇᴘᴏ ⚒️", url=f"https://t.me/About_Zeus_xD")
                 ]
             ]
         ),
