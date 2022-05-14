@@ -1,0 +1,16 @@
+version: "3.9"
+services:
+  worker:
+    build: .
+    environment:
+      SESSION_NAME: $SESSION_NAME
+      API_ID: $API_ID
+      API_HASH: $API_HASH
+      SUDO_USERS: $SUDO_USERS
+      BOT_TOKEN: $BOT_TOKEN
+      BOT_USERNAME: $BOT_USERNAME
+      ASSISTANT_NAME: $ASSISTANT_NAME
+      DURATION_LIMIT: $DURATION_LIMIT
+      GROUP_SUPPORT: $GROUP_SUPPORT
+      UPDATES_CHANNEL: about_zeus_xd
+ 
